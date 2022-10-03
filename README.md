@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @sachhi21
+- 👋 Hi, I’m @Sachin Rampur
 - 👀 I’m interested in Programming,Development, Debugging, Contributing to Open-Source.
 - 🌱 Computer Science Graduate from Bengaluru.
 - 💞️I’m looking to collaborate on any of the new Ideas helping humanity and especially IT.
