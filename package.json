@@ -1,15 +1,16 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://sachhi21.github.io//Sachin.io",
+  "homepage": "http://anuupadhyay.github.io/sachin.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+"build": "vite build && cp build/index.html build/404.html",   
+ "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
