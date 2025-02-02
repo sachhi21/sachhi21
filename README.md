@@ -8,4 +8,4 @@ Implemented my own Portfolio as Website, Where I have added all my projects and 
 
 ## View Live Demo
 
-<pre><center><a href="https://sachhi21.github.io/Sachin.io/"><b>https://sachhi21.github.io</b></a></center></pre>
+<pre><center><a href="https://sachhi21.netlify.app/#project"><b>Sachin Rampur</b></a></center></pre>
