@@ -178,6 +178,7 @@ const Contact = () => {
         </form>
 
         <div className="mt-5 contact__options">
+           {/*
           <article className="contact__option">
             <MdEmail />
             <a href="mailto:sachinrampur88@gmail.com" target="_blank" className="blue-text-gradient">sachinrampur88@gmail.com</a>
@@ -187,8 +188,28 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send/?phone=918861736510&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
               +91 8861736510
             </a>
-          </article>
-        </div>
+          </article> */}
+        <article className="flex items-center gap-4 flex-wrap max-w-full">
+  <MdEmail />
+  <a
+    href="mailto:sachinrampur88@gmail.com"
+    target="_blank"
+    className="blue-text-gradient break-words max-w-full"
+  >
+    sachinrampur88@gmail.com
+  </a>
+  </article>
+<br />
+  
+          <article className="flex items-center gap-4 flex-wrap max-w-full">
+
+   <BsWhatsapp />
+            <a href="https://api.whatsapp.com/send/?phone=918861736510&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
+              +91 8861736510
+            </a>
+</article>
+         </div>
+
       </motion.div>
     </div>
   );

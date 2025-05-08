@@ -1,4 +1,4 @@
-@import "../global.scss";
+@use '../global' as *;
 
 .contact{
   flex-direction: row;
@@ -21,24 +21,42 @@
         zoom: 0.8;
     }
   }
-  .contact__options {
+  // .contact__options {
 
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-  }
-  
-  .contact__option {
-    display: flex;
-    flex-direction: row;
-    padding: 0.6rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    align-items: center;
-    border: 1px solid white;
-    gap: 0.8rem;
-  }
-  
+  //   display: flex;
+  //   flex-direction: column;
+  //   gap: 1.2rem;
+  // }
+
+    .contact__option {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      /* spacing between icon and text */
+      max-width: 100%;
+      flex-wrap: wrap;
+      /* allows content to wrap */
+    }
+  // .contact__option {
+  //   display: flex;
+  //   flex-direction: row;
+  //   padding: 0.6rem;
+  //   border-radius: 1.2rem;
+  //   text-align: center;
+  //   align-items: center;
+  //   border: 1px solid white;
+  //   gap: 0.8rem;
+  // }
+    .contact__option a {
+      display: inline-block;
+      max-width: 100%;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      /* safer than break-all */
+      text-align: left;
+    }
+
   .contact__option:hover {
     text-decoration: underline;
   }
