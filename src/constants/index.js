@@ -30,42 +30,29 @@
 
   const experiences = [
     {
-      title: "Application Design And Development I",
+      title: "Application Design And Development",
       company_name: "Ernst & Young(EY)",
       icon: "",
       iconBg: "#383E56",
-      date: "oct 2023 - Present",
+      date: "Oct 2023 - Present",
       link: "",
       points: [
-        "As part of a critical integration project, I was responsible for designing and implementing a Windows Service using C# to automate data synchronization between SAP and Enablon systems for Saudi Electric Company (SEC).", 
+        "As part of a critical integration project, I was responsible for designing and implementing a Windows Service using C# to automate data synchronization between SAP and Enablon system.", 
         "This integration streamlined the data exchange between SEC's SAP database and the Enablon system for real-time updates and reporting.",
         " Responsible for the deployment and configuration of the Windows Service across Development (Dev), User Acceptance Testing (UAT), and Production (Prod) environments",
-        "Led the development of the SMBC(Bank) Trinity Application, a strategic initiative aimed at rebuilding and modernizing portfolio reconciliation processes, data management, and technology",
+        "Led the development of the Bank Application, a strategic initiative aimed at rebuilding and modernizing portfolio reconciliation processes, data management, and technology",
         "Modernized portfolio reconciliation processes utilizing Azure DevOps, Azure Cosmos DB, Azure Data Factory, C#, and .NET, Azure Functions, SSMS, React, TypeScript."
       ],
       link: "",
     },
-    {
-      title: "Software Engineer",
-      company_name: "Ernst & Young(EY)",
-      icon: "",
-      iconBg: "#383E56",
-      date: "Mar 2022 - Oct 2023",
-      link: "",
-      points: [
-        
-            "Worked As Full stack Developer for US Bank to modernize its Portfolio Reconciliation processesusing Azure Cloud, C#, .NET , React, TypeScript.",
-            "Implementing new features and enhancing existing feature with latestweb technologies.",
-            "Developing an application with cross browser  support and Responsive web designing"
-      ],
-      link: "",
-    },
+    
+   
     {
       title: "Associate Software Engineer",
       company_name: "Ernst & Young(EY)",
       icon: "",
       iconBg: "#E6DEDD",
-      date: "May 2022 - Apr 2023",
+      date: "Feb 2023 - Oct 2023",
       link: "",
       points: [
         "Developed a FRTB and BASEL Calculator for a cloud-based quantitative analysis distributed platform to assist clients with prototyping and testing design options",
